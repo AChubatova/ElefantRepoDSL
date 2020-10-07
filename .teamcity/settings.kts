@@ -51,7 +51,7 @@ project {
             param("networkId", "/subscriptions/759c9fa9-8b8a-4ebf-a162-52b3b8da0936/resourceGroups/chubatova-tc_group/providers/Microsoft.Network/virtualNetworks/chubatova-tc_group-vnet")
             param("storageAccountType", "Premium_LRS")
             param("vmSize", "Standard_B1ms")
-            param("maxInstances", "3")
+            param("maxInstances", "4")
             param("region", "westeurope")
             param("imageType", "Image")
         }
