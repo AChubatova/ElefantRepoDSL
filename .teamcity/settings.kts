@@ -31,31 +31,6 @@ project {
 
     features {
         feature {
-            id = "PROJECT_EXT_31"
-            type = "CloudImage"
-            param("subnetId", "default")
-            param("imageId", "/subscriptions/759c9fa9-8b8a-4ebf-a162-52b3b8da0936/resourceGroups/CHUBATOVA_GROUP/providers/Microsoft.Compute/images/chubatovaLinuxagent-image-20200925163231")
-            param("memory", "2")
-            param("numberCores", "2")
-            param("groupId", "chubatova_group")
-            param("agent_pool_id", "-2")
-            param("customEnvironmentVariables", "")
-            param("vmUsername", "jetbrains")
-            param("reuseVm", "false")
-            param("source-id", "crocoImageDSL")
-            param("deployTarget", "SpecificGroup")
-            param("vmPublicIp", "false")
-            param("profileId", "arm-9")
-            param("imageUrl", "")
-            param("osType", "Linux")
-            param("networkId", "/subscriptions/759c9fa9-8b8a-4ebf-a162-52b3b8da0936/resourceGroups/chubatova-tc_group/providers/Microsoft.Network/virtualNetworks/chubatova-tc_group-vnet")
-            param("storageAccountType", "Premium_LRS")
-            param("vmSize", "Standard_B1ms")
-            param("maxInstances", "4")
-            param("region", "westeurope")
-            param("imageType", "Image")
-        }
-        feature {
             id = "PROJECT_EXT_32"
             type = "CloudImage"
             param("imageId", "jetbrains/teamcity-agent")
@@ -77,6 +52,31 @@ project {
             param("imageType", "Container")
         }
         feature {
+            id = "PROJECT_EXT_35"
+            type = "CloudImage"
+            param("subnetId", "default")
+            param("imageId", "/subscriptions/759c9fa9-8b8a-4ebf-a162-52b3b8da0936/resourceGroups/CHUBATOVA_GROUP/providers/Microsoft.Compute/images/chubatovaLinuxagent-image-20200925163231")
+            param("memory", "2")
+            param("numberCores", "2")
+            param("groupId", "chubatova_group")
+            param("agent_pool_id", "-2")
+            param("customEnvironmentVariables", "")
+            param("vmUsername", "jetbrains")
+            param("reuseVm", "false")
+            param("source-id", "crocoImageDS")
+            param("deployTarget", "SpecificGroup")
+            param("vmPublicIp", "false")
+            param("profileId", "arm-9")
+            param("imageUrl", "")
+            param("osType", "Linux")
+            param("networkId", "/subscriptions/759c9fa9-8b8a-4ebf-a162-52b3b8da0936/resourceGroups/chubatova-tc_group/providers/Microsoft.Network/virtualNetworks/chubatova-tc_group-vnet")
+            param("storageAccountType", "Premium_LRS")
+            param("vmSize", "Standard_B1ms")
+            param("maxInstances", "4")
+            param("region", "westeurope")
+            param("imageType", "Image")
+        }
+        feature {
             id = "arm-9"
             type = "CloudProfile"
             param("profileServerUrl", "")
@@ -93,7 +93,7 @@ project {
             param("next-hour", "")
             param("subscriptionId", "759c9fa9-8b8a-4ebf-a162-52b3b8da0936")
             param("terminate-idle-time", "30")
-            param("secure:passwords_data", "credentialsJSON:9e0a9ff8-37aa-49e0-8ae9-076b7dc7830b")
+            param("secure:passwords_data", "credentialsJSON:a88598ff-ebd7-4642-9e86-1114f9efe6dd")
         }
     }
 }
