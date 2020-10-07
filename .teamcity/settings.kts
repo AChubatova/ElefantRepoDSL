@@ -42,7 +42,7 @@ project {
             param("customEnvironmentVariables", "")
             param("vmUsername", "jetbrains")
             param("reuseVm", "false")
-            param("source-id", "crocoImage")
+            param("source-id", "crocoImageDSL")
             param("deployTarget", "SpecificGroup")
             param("vmPublicIp", "false")
             param("profileId", "arm-9")
